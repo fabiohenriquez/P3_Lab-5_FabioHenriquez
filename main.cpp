@@ -96,7 +96,7 @@ int main(){
                                         cout<<"[1] . Imprimir ingredientes"<<endl;
                                         cout<<"[2] . Imprimir Platos"<<endl;
                                         cin>>o;
-                                        if(o = 1){
+                                        if(o == 1){
                                                 for(int i = 0; i< bode->getIngredientes().size();i++){
                                                 cout<<"[ "<<c<<" ]"<<bode->getIngredientes()[i]->getIngrediente()<<","<<bode->getIngredientes()[i]->getCantidad()<<endl;
                                                 cout<<"------"<<endl;
@@ -104,7 +104,7 @@ int main(){
                                                 break;
                                         } 
                                         }
-                                        if(o = 2){
+                                        if(o == 2){
                                                  for(int i = 0; i< bode->getPlatos().size();i++){
                                                 cout<<"[ "<<c1<<" ]"<<bode->getPlatos()[i]->getNombre()<<","<<bode->getPlatos()[i]->getValoracion()<<endl;
                                                      cout<<"------"<<endl;
